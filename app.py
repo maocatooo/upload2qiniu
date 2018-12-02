@@ -16,12 +16,11 @@ bucket_name = 'test-demo'
 @app.route("/uptoken")
 def tocken():
     """js 需要的tocken"""
-    q = Auth(access_key,secret_key)
+    q = Auth(access_key, secret_key)
 
     token = q.upload_token(bucket_name)
 
-    return jsonify({'uptoken':token})
-
+    return jsonify({'uptoken': token})
 
 
 @app.route("/j")
