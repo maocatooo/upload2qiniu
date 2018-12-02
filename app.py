@@ -6,11 +6,11 @@ import time
 app = Flask(__name__)
 
 # this is qiniu ak
-access_key = 'KvfHxiYHsC6FWJFMNbmhYv9R5DOy1TvWgT2u4Np1'
+access_key = ''
 # tiis is qiniu sk
-secret_key = 'q_ABwrQBBqiE83y6nJuMSrqQKzoZrWD85rY_sypC'
+secret_key = ''
 
-bucket_name = 'test-demo'
+bucket_name = ''
 
 
 @app.route("/uptoken")
